@@ -1,4 +1,4 @@
-Sure! Here's a detailed revision note on `BLKGETSIZE`
+# BLKGETSIZE
 
 
 # 📚 **Understanding `BLKGETSIZE` in Linux-based Systems** 🖥️
