@@ -46,10 +46,11 @@ int ioctl(int fd, unsigned long request, ...);
 ### **Q**: Why can't we always use `read()` and `write()` system calls for device operations?
 **A**: While `read()` and `write()` are designed for general input and output operations, many devices have specialized controls or settings that aren't effectively handled by these standard calls. `ioctl` fills this gap by offering a way to send custom commands to devices.
 
-### **Q**: Can you provide an example where `ioctl` might be more suitable than standard I/O system calls?
+###  **Q**: Can you provide an example where `ioctl` might be more suitable than standard I/O system calls?
 **A**: A typical example would be adjusting the volume levels of an audio device or changing the Baud Rate of a Serial port. These operations aren't about standard data transfer, so `ioctl` provides a more appropriate interface.
 ---
-### **ioctl in Simple Words**
+
+### ioctl in Simple Words
 `ioctl` stands for "Input Output Control." At its core, `ioctl` is a way to send custom, device-specific commands to a device. Imagine if every device (like your printer, keyboard, or hard drive) only had basic commands like "read" or "write." There would be a lot of special features of these devices that couldn't be accessed. That's where `ioctl` comes in. It provides a way to send these specialized commands directly to the device, unlocking a lot more functionality.
 
 ### **Interview Questions on `ioctl`**
