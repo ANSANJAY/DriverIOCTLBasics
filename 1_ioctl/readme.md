@@ -1,6 +1,6 @@
-Sure! Here's a detailed revision note on `BLKGETSIZE`, formatted in unrendered markdown for a `readme.md` document:
+Sure! Here's a detailed revision note on `BLKGETSIZE`
 
-```markdown
+
 # 📚 **Understanding `BLKGETSIZE` in Linux-based Systems** 🖥️
 
 `BLKGETSIZE` is a specific `ioctl` request used on Linux-based systems to determine the size of a block special device.
